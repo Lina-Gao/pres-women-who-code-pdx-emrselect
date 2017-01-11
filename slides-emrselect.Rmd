@@ -35,7 +35,7 @@ Who are _**true**_ disease cases?
 
 ## EMR Research Challenge
 
-![](emr_bmj2.jpg)
+![](images/emr_bmj2.jpg)
 
 <p style="font-size:15px">
 Liao et al. Development of phenotype algorithms using electronic medical records and incorporating natural language processing BMJ 2015; 350 :h1885
@@ -43,7 +43,7 @@ Liao et al. Development of phenotype algorithms using electronic medical records
 
 ## EMR Research Data
 
-<img src="emr_bmj.jpg" style="width: 80%;"/>
+<img src="images/emr_bmj.jpg" style="width: 80%;"/>
 
 <p style="font-size:15px">
 Liao et al. Development of phenotype algorithms using electronic medical records and incorporating natural language processing BMJ 2015; 350 :h1885
@@ -53,7 +53,7 @@ Liao et al. Development of phenotype algorithms using electronic medical records
 
 Turn text notes into variables:
 
-<img src="nlp_murphy.png" style="width: 80%;"/>
+<img src="images/nlp_murphy.png" style="width: 80%;"/>
 
 <p style="font-size:15px">
 S. Murphy, et. al, Instrumenting the health care enterprise for discovery research in the genomic era, Genome Research , 19(9): 1675–1681 (2009).
@@ -88,7 +88,7 @@ Copyright 2009 by Cold Spring Harbor Laboratory Press
 
 
 ```{r, echo=FALSE}
-tmpdat <- readr::read_csv("emrselect_data_subsetRA.csv")
+tmpdat <- readr::read_csv("images/emrselect_data_subsetRA.csv")
 #DT::datatable(tmpdat,rownames=FALSE)
 tibble::glimpse(tmpdat)
 ```
@@ -239,17 +239,17 @@ Goal: <br>auto model predict $\ \geq$ model w/ labeled data <br>$\ \Rightarrow$ 
 
 ## Results
 
-<img src="sims_auc.png" style="height: 80%"; ALIGN="right"/>
+<img src="images/sims_auc.png" ALIGN="right" style="width: 35%"/>
 
 <font style="color: blue;"> with > 200 labels </font> <font style="color: green;">AUC logistic adaptive LASSO regression </font>
 </font>$\ \approx$ 
 <font style="color: red;"> AUC with automated feature selection.</font>
 
-<img src="RA_AUC.pdf" style="height: 55%"; ALIGN="right"/>
+<img src="images/RA_AUC.pdf" style="width: 45%"; ALIGN="left"/>
 
 ## Results
 
-<img src="ra_auc_table.png" style="height: 65%"/> <p style="font-size:20px", align="right">
+<img src="images/ra_auc_table.png" style="height: 65%"/> <p style="font-size:20px", align="right">
 Minnier, Gronsbell, Yu, Liao, Cai (in progress)</p>
 
 ## Future
@@ -264,7 +264,7 @@ Minnier, Gronsbell, Yu, Liao, Cai (in progress)</p>
 
 ## Explore EMR data (i2b2.org)
 
-<img src="i2b2.png" style="height: 80%"/>
+<img src="images/i2b2.png" style="height: 80%"/>
 
 ## Thank You
 
